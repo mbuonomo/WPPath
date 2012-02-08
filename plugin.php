@@ -227,7 +227,7 @@ class PathActivity extends WP_Widget {
     
 		if(file_exists($file)) {
 			if($is_script) {
-				wp_register_script($name, $url,false, false,true);
+				wp_register_script($name, $url,array('jquery'), false,true);
 				wp_enqueue_script($name);
 			} else {
 				wp_register_style($name, $url);
