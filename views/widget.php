@@ -4,6 +4,6 @@ var PathInstance		= <?php echo json_encode($instance)?>
 
 </script>
 <div id='pathactivityfeed'>
-<h1 class="pathactivityheader"><div id="pathactivityfeedloading"></div></h1>
+<h1 class="pathactivityheader"><small>Feed</small><div id="pathactivityfeedloading"></div></h1>
 
 </div>

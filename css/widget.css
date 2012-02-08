@@ -5,30 +5,83 @@
 	height: 16px;
 }
 .pathactivityheader{
-	background: #F7433D url(https://path.com/static/images/path-logo.png) 5px 5px no-repeat;
+	background:transparent url('../images/path.png') 10px 6px no-repeat;
 	width: 100%;
-	height: 30px;
-	padding: 5px;
+	height: 28px;
+	font-size:12px;
+	background-color:#f0f0f0;
+	border-bottom:1px solid #bebebe;
+	-webkit-border-top-left-radius: 10px;
+	-webkit-border-top-right-radius: 10px;
+	-moz-border-radius-topleft: 10px;
+	-moz-border-radius-topright: 10px;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+.pathactivityheader small{
+	font-size:12px;
+	padding-left:30px;
+	line-height:30px;
+	
+}
+.floatl{
+	float:left;
+}
+.emo{
+	background:transparent url('../images/emotion-icons.png') no-repeat;
+}
+.hearth{
+	width:16px;
+	height:17px;
+	background-position:-84px 0;
 }
 
+.pathcellfooter{
+	position:absolute;
+	height:20px;
+	width:95%;
+	bottom:0;
+}
 
+.pathcellfooter .ulspecial{
+	margin:0;
+	padding:0;
+	list-style:none;
+}
+.pathcellfooter ul li{
+	float:left;
+	list-style:none;
+}
+
+.pathcellcontent{
+	padding:5px;
+	position:relative;
+	height:67px;
+}
+
+.pathcellcontent a{
+	color:#188fd2;
+}
 #pathactivityfeed .pathcell{
 	width:100%;
-	margin: 10px 0;
+	height:78px;
+	background:transparent url('../images/cell.png') repeat-x;
 }
 
 #pathactivityfeed .pathline{
-	height:20px;
+	position:relative;
 }
 
 #pathactivityfeed .pathicone{
-	height:16px;
-	width:16px;
+	height:40px;
+	width:40px;
 	border:1px solid #CCC;
 	background-color:#333;
 	float:left;
-	-moz-border-radius:75px;
-	 -webkit-border-radius: 75px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-right: 5px;
 }
 
 #pathactivityfeed .pathdatas{
@@ -45,12 +98,5 @@
 
 #pathactivityfeed .pathcomment{
 	position: relative;
-	padding: 15px;
-	margin: 1em 0 3em;
-	border: 2px solid #C2C2C2;
 	color: #333;
-	background: white;
-	-webkit-border-radius: 10px;
-	-moz-border-radius: 10px;
-	border-radius: 10px;
 }

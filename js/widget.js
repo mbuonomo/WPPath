@@ -16,20 +16,22 @@ jQuery(function($) {
 
 							myDate.setTime(moments.data[moments.sort[i]].visible_ts);
 							
-							cell	= 	'<div class="pathcell">'+
+							cell	= 	'<div class="pathcell"><div class="pathcellcontent">'+
 										'<div class="pathline">'+
-										'<div class="pathicone">'+
+										'<div class="pathicone" style="background:transparent url(\'http://maps.googleapis.com/maps/api/staticmap?center='+moments.data[moments.sort[i]].location.lat+','+moments.data[moments.sort[i]].location.lng+'&zoom=14&size=40x40&sensor=false\')">'+
 										'</div>'+
 										'<div class="pathdatas">'+
-										'<div class="pathplace">'+
-										'<strong>at</strong> '+moments.data[moments.sort[i]].location.city+
-										'</div>'+
-										'</div>'+
-										'</div>'+
 										'<div class="pathcomment">'+
 										moments.data[moments.sort[i]].headline+
 										'</div>'+
-										'</div>';
+										'</div>'+
+										'</div>'+
+										'<div class="pathcellfooter">'+
+										'<ul class="ulspecial">'+
+										'<li><div class="emo hearth floatl"></div><span class="floatl" style="line-height: 15px;">'+moments.data[moments.sort[i]].comments.length+'</span></li>'+
+										'</ul>'+
+										'</div>'+
+										'</div></div>';
 							$('#pathactivityfeed').append(cell);
 							console.log(moments.data[moments.sort[i]]);
 						}

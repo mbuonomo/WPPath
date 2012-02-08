@@ -1,6 +1,6 @@
 Plugin based on a Widget Boilerplate
 
-Use the path api wrapper provided by Doky <http://www.welcomedemain.com/>
+Use the path api wrapper provided by Doky <https://github.com/doky/Path-API>
 
 Just install the plugin and drop the widget on your sidebar.
 
