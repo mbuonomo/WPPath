@@ -33,7 +33,6 @@ jQuery(function($) {
 										'</div>'+
 										'</div></div>';
 							$('#pathactivityfeed').append(cell);
-							console.log(moments.data[moments.sort[i]]);
 						}
 					}
 				});
