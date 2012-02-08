@@ -1,0 +1,56 @@
+#pathactivityfeedloading {
+	float:right;
+	background:transparent url('../images/ajax-loader.gif') center center no-repeat;
+	width: 16px;
+	height: 16px;
+}
+.pathactivityheader{
+	background: #F7433D url(https://path.com/static/images/path-logo.png) 5px 5px no-repeat;
+	width: 100%;
+	height: 30px;
+	padding: 5px;
+}
+
+
+#pathactivityfeed .pathcell{
+	width:100%;
+	margin: 10px 0;
+}
+
+#pathactivityfeed .pathline{
+	height:20px;
+}
+
+#pathactivityfeed .pathicone{
+	height:16px;
+	width:16px;
+	border:1px solid #CCC;
+	background-color:#333;
+	float:left;
+	-moz-border-radius:75px;
+	 -webkit-border-radius: 75px;
+}
+
+#pathactivityfeed .pathdatas{
+	width:100%;
+	padding-left:20px;
+}
+
+#pathactivityfeed .pathdate{
+	
+}
+#pathactivityfeed .pathplace{
+	
+}
+
+#pathactivityfeed .pathcomment{
+	position: relative;
+	padding: 15px;
+	margin: 1em 0 3em;
+	border: 2px solid #C2C2C2;
+	color: #333;
+	background: white;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
